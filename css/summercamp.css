@@ -1,0 +1,169 @@
+body{
+    background-color: white;
+}
+h1{
+    color:white !important;
+    margin-right: 15px !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+h2{
+    margin-bottom:15px !important;
+    color: white !important;
+    margin-right: 15px !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+p{
+    margin: 45 0 62px !important;
+    font-weight: bold;
+    font-size: 6em;
+    font-family: 'Raleway', sans-serif;
+}
+.weekTitle{
+    border-top: 1px black solid;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+    height:35%;
+    padding-right:0px !important;
+    padding-left:0px !important;
+}
+.weekTitle h1{
+    margin-top:0px;
+    margin-right:0px !important;
+}
+.weekDay{
+    border-top: 1px black solid;
+    padding: 0 !important;
+    border-bottom: 1px black solid;
+    height: 35%;
+}
+.lastWeekDay{
+    padding: 0 !important;
+}
+.friday{
+    border-right: 1px black solid;
+    border-top: 1px black solid;    
+    border-bottom: 1px black solid;
+    height: 35%;
+    padding-right: 15% !important;
+    
+}
+.coder{
+    background-color: #8DC52F;
+        direction: rtl;
+        height:100%;
+}
+.designer{
+    background-color: #DD5CA3;
+        direction: rtl;
+        height:100%;
+}
+.robotics{
+    background-color: #FCC000;
+        direction: rtl;
+        height:100%;
+}
+.schedule{
+    margin-left: 10%;
+}
+footer{
+    height:100px;
+    font-family: 'Raleway', sans-serif !important;
+}
+footer h3{
+    color: #686868;
+    font-size: 18px !important;
+}
+.schedule a{
+    color:black !important;
+}
+.campers{
+    text-align: center;
+    padding: 5%;
+}
+.campers p{
+    text-align: center;
+}
+.campers img{
+    height: 30%;
+    width: 30%;
+}
+.campers button{
+    background: transparent;
+    border: none;
+}
+.camper:focus{
+    outline: none;
+}
+#weekOne{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.gallery{
+    text-align: center;
+    padding: 5%;
+}
+.gallery p{
+    text-align: center;
+}
+.gallery button{
+    background: transparent;
+    border: none;
+}
+.camper:focus{
+    outline: none;
+}
+
+@media (max-width: 600px){
+    p{
+        font-size: 2.5em;
+    }
+    .campers{
+        padding:0px;
+    }
+    .campers img{
+        width:77%;
+    }
+    #verticalImg1{
+        width:40% !important;
+    }
+    #verticalImg2{
+        width:35% !important;
+    }
+    #verticalImg3{
+        width:70% !important;
+    }
+    #verticalImg4{
+        width:50% !important;
+    }
+    .weekDay{
+        height:20%;
+    }
+    .friday{
+        height:20%;
+    }
+    .weekTitle{
+        height:20%;
+        padding-right:0px !important;
+        padding-left:0px !important;
+    }
+    .weekTitle h1{
+        margin-top:0px;
+        margin-right:0px !important;
+        font-size: 85% !important;
+    }
+    .weekTitle h2{
+        margin-top:0px;
+        margin-right:0px !important;
+        font-size: 85% !important;
+    }
+     .gallery{
+        padding:0px;
+    }
+
+}
+@media (max-width: 800px){
+    .gallery img{
+        width:100% !important;
+        
+    }
+}
